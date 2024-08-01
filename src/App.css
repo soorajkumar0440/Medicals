@@ -1,0 +1,6443 @@
+* {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+body {
+  background-color: #EFEFEF;
+}
+
+.hero {
+  width: 100%;
+  height: 90vh;
+}
+
+.hero img {
+  width: 100%;
+  height: 99vh;
+}
+
+.services {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.services .item {
+  width: calc(100% * (1/5));
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(18, 147, 255);
+  background-color: #efefef;
+  border-top: none;
+  cursor: pointer;
+}
+
+.services .item img {
+  width: 70%;
+}
+
+.services .item .content {
+  padding-top: 10%;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(50, 50, 50);
+}
+
+.services .item hr {
+  width: 30%;
+  margin-top: 10px;
+  border: 2px solid rgb(18, 147, 255);
+}
+
+.services .item .bton button {
+  padding: 4px 20px;
+  border: none;
+  font-size: 12px;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  align-items: center;
+  text-align: center;
+  display: none;
+  cursor: pointer;
+}
+
+.services .item:hover .bton button {
+  background-color: rgb(17, 17, 17);
+  display: block;
+}
+
+.services .item:hover hr {
+  display: none;
+}
+
+.welcome {
+  width: 100%;
+  display: flex;
+}
+
+.welcome .content {
+  width: 70%;
+}
+
+.welcome .content h1 {
+  padding: 1% 10%;
+  font-size: 40PX;
+  color: rgb(44, 44, 44);
+  text-transform: uppercase;
+}
+
+.welcome .content p {
+  padding: 1% 10%;
+  font-size: 14.5PX;
+  color: rgb(44, 44, 44);
+}
+
+.welcome .content p span {
+  color: rgb(18, 147, 255);
+  cursor: pointer;
+}
+
+.welcome .content p span:hover {
+  color: rgb(44, 44, 44);
+}
+
+.welcome .content button {
+  padding: 1% 3%;
+  margin: 20px 97px;
+  font-size: 12px;
+  border: none;
+  background-color: rgb(18, 147, 255);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.welcome .content button:hover {
+  background-color: rgb(9, 71, 122);
+}
+
+.welcome .image {
+  padding: 4% 7%;
+  width: 30%;
+}
+
+.triangle-shape {
+  width: 0;
+  height: 50px;
+  border-left: 710.2px solid transparent;
+  border-right: 680.2px solid transparent;
+  border-bottom: 50px solid #dddfe2;
+}
+
+.heading h1 {
+  padding: 5% 6%;
+  background-color: #dddfe2;
+  font-size: 40PX;
+  color: rgb(44, 44, 44);
+  text-transform: uppercase;
+}
+
+.product {
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+
+.product .item {
+  width: calc(100% * (1/5));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  background-color: #dddfe2;
+  padding: 0 0 5% 0;
+}
+
+.product .item img {
+  width: 260px;
+}
+
+.product .item .content {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.product .item .content h3 {
+  color: rgb(50, 50, 50);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.product .item .content p {
+  font-size: 14px;
+  color: rgb(50, 50, 50);
+}
+
+.product .item .bton button {
+  padding: 6px 30px;
+  border: none;
+  font-size: 15px;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  align-items: center;
+  text-align: center;
+  display: none;
+  cursor: pointer;
+  margin: 5px -45px;
+  position: absolute;
+}
+
+.product .item:hover .bton button {
+  display: block;
+}
+
+.square {
+  /* width: 1403px; */
+  height: 100px;
+  background-color: rgb(139, 149, 166);
+}
+
+.science {
+  background-color: rgb(139, 149, 166);
+}
+
+.science .content {
+  text-align: center;
+}
+
+.science .content h1 {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+}
+
+.science .content p {
+  padding: 1% 0%;
+  color: white;
+  font-size: 20px;
+}
+
+.science .content h3 {
+  padding: 2% 5%;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+
+.form {
+  background-color: rgb(139, 149, 166);
+}
+
+.science .form {
+  padding: 1% 5% 10% 5%;
+}
+
+.science .form select {
+  width: 100%;
+  padding: 14px 0% 13px 15px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(48, 47, 47);
+  outline: none;
+}
+
+.science .form option {
+  font-size: 14.5px;
+  text-transform: uppercase;
+  color: rgb(48, 47, 47);
+}
+
+.science .form input {
+  padding: 14px 85% 13px 19px;
+  margin: 5px 0;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.science .form textarea {
+  padding: 10px 84.6% 10px 19px;
+  margin: 5px 0;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  height: 200px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.science .form .bton button {
+  border: none;
+  cursor: pointer;
+  padding: 11px 30px 8px 30px;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-color: rgb(18, 147, 255);
+  color: white;
+  font-weight: 200;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.science .form .bton button:hover {
+  background-color: rgb(9, 71, 122);
+}
+
+/* About */
+.hero2 {
+  width: 100%;
+  height: 67vh;
+}
+
+.hero2 img {
+  width: 100%;
+  height: 60vh;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.container .row {
+  width: 50%;
+  margin: 5% 3% 10% 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .row h1 {
+  font-size: 22px;
+  padding: 5% 0;
+}
+
+.container .row p {
+  font-size: 17px;
+  padding: 3% 0%;
+  color: rgb(73, 72, 72);
+}
+
+.container .row .about .usericon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.container .row .about .usericon svg {
+  width: 50px;
+}
+
+.container .row .about hr {
+  width: 65%;
+  border: 1px solid grey;
+}
+
+.container .row2 {
+  width: 50%;
+  margin: 5% 4% 5% 0%;
+}
+
+.container .row2 .values h1 {
+  font-size: 22px;
+  padding: 5% 0%;
+}
+
+.container .row2 .values p {
+  width: 100%;
+  font-size: 17px;
+  padding: 3% 0%;
+  color: rgb(73, 72, 72);
+}
+
+.container .row2 .values .chart-baricon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.container .row2 .values .chart-baricon svg {
+  width: 50px;
+}
+
+.container .row2 .values .chart-baricon hr {
+  width: 62%;
+  border: 1px solid grey;
+}
+
+
+.container .row2 .vission h1 {
+  font-size: 22px;
+  padding: 5% 0%;
+}
+
+.container .row2 .vission p {
+  width: 100%;
+  font-size: 17px;
+  padding: 1% 0%;
+  color: rgb(73, 72, 72);
+}
+
+.container .row2 .vission .eyeicon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.container .row2 .vission .eyeicon svg {
+  width: 60px;
+}
+
+.container .row2 .vission .eyeicon hr {
+  width: 63%;
+  border: 1px solid grey;
+}
+
+.container .row2 .mission h1 {
+  font-size: 22px;
+  padding: 5% 0%;
+}
+
+.container .row2 .mission p {
+  width: 100%;
+  font-size: 17px;
+  padding: 3% 0%;
+  color: rgb(73, 72, 72);
+}
+
+.container .row2 .mission .rocket {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.container .row2 .mission .rocket svg {
+  width: 60px;
+}
+
+.container .row2 .mission .rocket hr {
+  width: 60%;
+  border: 1px solid grey;
+}
+
+.biography {
+  width: 100%;
+  padding: 5% 5%;
+  background-color: #E5E5E5;
+}
+
+.biography h1 {
+  padding: 1% 0;
+  font-size: 45px;
+  color: #323232;
+}
+
+.biography p {
+  font-size: 20px;
+  color: rgb(51, 50, 50);
+}
+
+.biography img {
+  padding: 6% 0;
+  width: 100%;
+}
+
+/* Distributon */
+
+.hero3 {
+  width: 100%;
+  height: 80vh;
+}
+
+.hero3 img {
+  width: 100%;
+  height: 70vh;
+}
+
+.marketing {
+  width: 100%;
+  padding: 2% 0%;
+}
+
+.dis-heading {
+  font-size: 25px;
+  padding: 0 4%;
+  color: #1f1e1e;
+  text-transform: uppercase;
+}
+
+.marketing h1 {
+  padding: 1% 0;
+  font-size: 30px;
+  font-weight: 500;
+  color: #323232;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.marketing p {
+  padding: 8px 4%;
+  font-size: 17px;
+  color: rgb(51, 50, 50);
+}
+
+.network {
+  width: 80%;
+}
+
+.network img {
+  padding: 1% 16.7%;
+  align-items: center;
+}
+
+.triangle-shape2 {
+  width: 0;
+  height: 50px;
+  border-left: 702.2px solid transparent;
+  border-right: 702.2px solid transparent;
+  border-bottom: 50px solid #E5E5E5;
+}
+
+.setup {
+  width: 100%;
+  padding: 6% 0%;
+  background-color: #E5E5E5;
+}
+
+.setup h1 {
+  padding: 1% 0;
+  font-size: 30px;
+  font-weight: 600;
+  color: #323232;
+  text-align: center;
+}
+
+.setup ul {
+  padding: 0 8%;
+  font-size: 17px;
+}
+
+.setup ul li {
+  padding: 2px 0;
+  color: #1f1e1e;
+}
+
+
+.setup .cards {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 3%;
+  margin-bottom: 85px;
+
+}
+
+.setup .cards .item {
+  width: calc(100% * (1/5));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(18, 147, 255);
+  margin: 1%;
+}
+
+.cards .item .content {
+  padding-top: 28%;
+  padding-bottom: 20%;
+}
+
+.cards .item .content h1 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.setup .cards .item hr {
+  width: 40%;
+  margin-top: 10px;
+  border: 3px solid rgb(18, 147, 255);
+}
+
+/* career */
+
+.social-hero {
+  width: 100%;
+}
+
+.social-hero img {
+  margin-top: 7%;
+  width: 100%;
+  height: 57vh;
+}
+
+.work {
+  width: 100%;
+}
+
+.work .word-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work .word-heading h1 {
+  font-size: 23px;
+  margin-top: 7%;
+  padding: 2% 2%;
+  color: #323232;
+  font-weight: bold;
+}
+
+.work .content p {
+  font-size: 18px;
+  padding: 0% 8% 5% 8%;
+  color: rgb(51, 50, 50);
+}
+
+.work .content p span {
+  color: rgb(18, 147, 255);
+  cursor: pointer;
+}
+
+.work .content p span:hover {
+  color: rgb(13, 4, 36);
+}
+
+.work .word-heading hr {
+  width: 30%;
+  margin-top: 7%;
+  border: 1px solid #8b8888;
+}
+
+.work .form2 {
+  margin-left: 8%;
+  width: 84%;
+  margin-bottom: 10%;
+}
+
+.work .form2 input {
+  margin: 3px;
+  width: 100%;
+  padding: 13px;
+  outline: none;
+  background-color: #EFEFEF;
+  border: 1px solid rgb(158, 156, 156);
+}
+
+.work .form2 select {
+  margin: 3px;
+  width: 100%;
+  padding: 13px;
+  outline: none;
+  background-color: #EFEFEF;
+  border: 1px solid rgb(158, 156, 156);
+}
+
+.work .form2 select option {
+  font-size: 14px;
+}
+
+.work .form2 textarea {
+  margin: 3px;
+  width: 100%;
+  padding: 13px;
+  outline: none;
+  background-color: #EFEFEF;
+  border: 1px solid rgb(158, 156, 156);
+  height: 200px;
+  font-family: unset;
+}
+
+#myfile {
+  margin: 3px;
+  width: 20%;
+  padding: 13px;
+  outline: none;
+  background-color: #EFEFEF;
+}
+
+.work .form2 button {
+  margin: 3px;
+  padding: 10px 25px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(18, 147, 255);
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.work .form2 button:hover {
+  background-color: rgb(9, 71, 122);
+}
+
+/* Contact */
+.query {
+  display: flex;
+  padding: 20% 0%;
+  width: 100%;
+}
+
+.query .form3 .quary-heading {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.query .form3 .quary-heading hr {
+  width: 35%;
+  margin-top: -25px;
+  border: 1px solid #323232;
+}
+
+.query .form3 h1 {
+  font-size: 25px;
+  padding: 0 0 6% 0;
+  font-weight: bold;
+  color: #323232;
+}
+
+.query .form3 {
+  margin-left: 7%;
+  width: 35%;
+}
+
+.query .map {
+  width: 65%;
+}
+
+.query .map iframe {
+  width: 90%;
+  height: 100%;
+  border: none;
+}
+
+.query .form3 input {
+  margin: 3px;
+  width: 80%;
+  padding: 13px;
+  outline: none;
+  background-color: #EFEFEF;
+  border: 1px solid rgb(158, 156, 156);
+}
+
+.query .form3 select {
+  margin: 3px;
+  width: 80%;
+  padding: 13px;
+  outline: none;
+  background-color: #EFEFEF;
+  border: 1px solid rgb(158, 156, 156);
+}
+
+.query .form3 textarea {
+  margin: 3px;
+  width: 80%;
+  padding: 13px;
+  outline: none;
+  background-color: #EFEFEF;
+  height: 170px;
+  border: 1px solid rgb(158, 156, 156);
+  font-family: unset;
+}
+
+.query .form3 .bton button {
+  margin: 3px;
+  padding: 10px 25px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(18, 147, 255);
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.query .form3 .bton button:hover {
+  background-color: rgb(9, 71, 122);
+}
+
+/* Electro */
+.electro {
+  padding: 13% 0;
+  display: flex;
+  width: 100%;
+}
+
+.electro .division-heading {
+  display: flex;
+  font-size: 15px;
+  padding: 3% 0;
+  align-items: center;
+  gap: 5px;
+}
+
+.electro .division-heading hr {
+  width: 47.5%;
+}
+
+.electro .divison {
+  padding: 0 0 0 6%;
+  width: 70%;
+  color: #1f1e1e;
+}
+
+
+.electro .list {
+  font-size: 23px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #585858;
+}
+
+.electro .list ul {
+  list-style: none;
+  padding: 0% 5% 0 0%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.electro .list li {
+  cursor: pointer;
+  padding: 2% 2%;
+  list-style: none;
+  background-color: white;
+}
+
+.electro .request-form {
+  width: 30%;
+  color: #1f1e1e;
+}
+
+.electro .request-form .request-heading {
+  display: flex;
+  font-size: 15px;
+  padding: 6.3% 0;
+  align-items: center;
+  gap: 6px;
+}
+
+.electro .request-form .request-heading hr {
+  width: 25%;
+}
+
+.electro .request-form input {
+  margin: 3px;
+  width: 82%;
+  padding: 12px;
+  outline: none;
+  background-color: #EFEFEF;
+  border: 1px solid rgb(192, 188, 188);
+}
+
+.electro .request-form select {
+  margin: 3px;
+  width: 82%;
+  padding: 12px;
+  outline: none;
+  background-color: #EFEFEF;
+  border: 1px solid rgb(192, 188, 188);
+}
+
+.electro .request-form textarea {
+  margin: 3px;
+  width: 82%;
+  padding: 12px;
+  outline: none;
+  background-color: #EFEFEF;
+  height: 120px;
+  border: 1px solid rgb(192, 188, 188);
+  font-family: unset;
+}
+
+.electro .request-form .bton button {
+  margin: 3px;
+  padding: 10px 18px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(18, 147, 255);
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.electro .request-form .bton button:hover {
+  background-color: rgb(9, 71, 122);
+}
+
+.electro .list .diagnostics {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.electro .list .diagnostics .item {
+  width: calc(100% * (2/10));
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  margin-left: 3%;
+}
+
+.electro .list .diagnostics img {
+  cursor: pointer;
+  width: 100%;
+}
+
+.electro .list .diagnostics .content {
+  width: 100%;
+  padding: 15px 0;
+}
+
+.electro .list .diagnostics .content p {
+  padding: 15px 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.electro .list .diagnostics button {
+  padding: 10px 25px;
+  background-color: #1293FF;
+  font-weight: 530;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.electro .list .diagnostics button:hover {
+  background-color: rgb(9, 71, 122);
+}
+
+.electro .list .gynecology {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.electro .list .gynecology .item {
+  width: calc(100% * (2/10));
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  margin-left: 3%;
+}
+
+.electro .list .gynecology img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.electro .list .gynecology .content {
+  width: 100%;
+  padding: 15px 0;
+}
+
+.electro .list .gynecology .content p {
+  padding: 15px 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.electro .list .gynecology button {
+  padding: 10px 25px;
+  background-color: #1293FF;
+  font-weight: 530;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.electro .list .gynecology button:hover {
+  background-color: rgb(9, 71, 122);
+}
+
+.electro .list .hematology {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.electro .list .hematology .item {
+  width: calc(100% * (2/10));
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  margin-left: 3%;
+}
+
+.electro .list .hematology img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.electro .list .hematology .content {
+  width: 100%;
+  padding: 15px 0;
+}
+
+.electro .list .hematology .content p {
+  padding: 15px 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.electro .list .hematology button {
+  padding: 10px 25px;
+  background-color: #1293FF;
+  font-weight: 530;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.electro .list .hematology button:hover {
+  background-color: rgb(9, 71, 122);
+}
+
+.electro .list .icu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.electro .list .icu .item {
+  width: calc(100% * (2/10));
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  margin-left: 3%;
+}
+
+.electro .list .icu img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.electro .list .icu .content {
+  width: 100%;
+  padding: 15px 0;
+}
+
+.electro .list .icu .content p {
+  padding: 15px 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.electro .list .icu button {
+  padding: 10px 25px;
+  background-color: #1293FF;
+  font-weight: 530;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.electro .list .icu button:hover {
+  background-color: rgb(9, 71, 122);
+}
+
+.electro .list .urology {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.electro .list .urology .item {
+  width: calc(100% * (2/10));
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  margin-left: 3%;
+}
+
+.electro .list .urology img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.electro .list .urology .content {
+  width: 100%;
+  padding: 15px 0;
+}
+
+.electro .list .urology .content p {
+  padding: 15px 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.electro .list .urology button {
+  padding: 10px 25px;
+  background-color: #1293FF;
+  font-weight: 530;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.electro .list .urology button:hover {
+  background-color: rgb(9, 71, 122);
+}
+
+.electro .list svg {
+  width: 25px;
+  margin: -6px 9px;
+  color: black;
+}
+
+/* surgical */
+.disposable-heading h1 {
+  font-size: 40px;
+  padding: 4% 0% 8% 5%;
+  color: #1f1e1e;
+}
+
+.surgical {
+  width: 100%;
+  display: flex;
+}
+
+.surgical .disposable {
+  width: 70%;
+  padding: 0 0 0 5%;
+}
+
+.surgical .disposable .surgical-heading {
+  width: 100%;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  color: #323232;
+}
+
+.surgical .disposable .surgical-image {
+  width: 96%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 20% 0;
+}
+
+.surgical .disposable .surgical-image .item {
+  width: calc(100% * (2/6));
+  padding: 4% 15px;
+}
+
+.surgical .disposable .surgical-image img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.surgical .disposable .surgical-image .content {
+  width: 100%;
+  padding: 22px 0 0 0;
+  text-align: center;
+  background-color: white;
+  margin-top: -5px;
+}
+
+.surgical .disposable .surgical-image .content p {
+  font-size: 15px;
+  padding: 15px 0 30px 0;
+  text-transform: uppercase;
+  color: rgb(99, 98, 98);
+}
+
+.surgical .disposable .surgical-image button {
+  width: 100%;
+  padding: 14px 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #1293FF;
+  border: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.surgical .disposable .surgical-image button:hover {
+  background-color: rgb(9, 71, 122);
+}
+
+.surgical .request-appointment {
+  width: 30%;
+}
+
+.surgical .request-appointment .appointment-heading {
+  font-size: 16px;
+  padding: 2% 0 8% 0;
+  color: #323232;
+}
+
+.surgical .request-appointment input {
+  width: 80%;
+  padding: 15px 10px;
+  font-size: 15px;
+  margin: 3px;
+  background-color: #EFEFEF;
+  border: 1px solid rgb(189, 183, 183);
+  outline: none;
+}
+
+.surgical .request-appointment select {
+  width: 80%;
+  padding: 15px 10px;
+  font-size: 15px;
+  margin: 3px;
+  background-color: #EFEFEF;
+  border: 1px solid rgb(189, 183, 183);
+
+  outline: none;
+}
+
+.surgical .request-appointment textarea {
+  width: 80%;
+  padding: 15px 10px;
+  font-size: 15px;
+  margin: 3px;
+  background-color: #EFEFEF;
+  border: 1px solid rgb(189, 183, 183);
+  outline: none;
+  height: 180px;
+  font-family: unset;
+}
+
+.surgical .request-appointment button {
+  padding: 13px 33px;
+  font-size: 15px;
+  margin: 3px;
+  border: none;
+  background-color: #1293FF;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.surgical .request-appointment button:hover {
+  background-color: rgb(9, 71, 122);
+}
+
+.disposable-hero img {
+  width: 100%;
+  height: 80vh;
+}
+
+.surgical .surgical-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.surgical .surgical-heading hr {
+  width: 64%;
+}
+
+.surgical .appointment-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.surgical .appointment-heading hr {
+  width: 19%;
+}
+
+/* pharma */
+.pharma-image img {
+  width: 100%;
+  height: 83vh;
+}
+
+.pharma-heading {
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 2% 0 5% 6%;
+  color: #323232;
+}
+
+.pharmaceuticals .pharma {
+  display: flex;
+  width: 100%;
+}
+
+.pharmaceuticals .pharma .list {
+  width: 60%;
+}
+
+.pharmaceuticals .pharma .list ul {
+  width: 95%;
+  padding: 10px 0 0 9%;
+  cursor: pointer;
+  color: #666666;
+}
+
+.pharmaceuticals .pharma .list ul li {
+  font-size: 23px;
+  padding: 10px 2%;
+  text-decoration: none;
+  list-style: none;
+  background-color: #F8F8F8;
+  margin: 2px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.pharmaceuticals .pharma svg {
+  width: 25px;
+  margin: -6px 9px;
+
+}
+
+.pharmaceuticals .request-form {
+  width: 40%;
+  padding: 0 0 10% 0;
+}
+
+.pharmaceuticals .request-form .request-heading {
+  font-size: 15px;
+  padding: 0 0 35px 0;
+  color: #323232;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.pharmaceuticals .request-form .request-heading {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.pharmaceuticals .request-form .request-heading hr {
+  margin-top: 5px;
+  width: 18.3%;
+}
+
+.pharmaceuticals .request-form input {
+  width: 87%;
+  padding: 15px 10px;
+  font-size: 15px;
+  margin: 3px;
+  background-color: #EFEFEF;
+  border: 1px solid rgb(189, 183, 183);
+  outline: none;
+}
+
+.pharmaceuticals .request-form select {
+  width: 87%;
+  padding: 16px 10px;
+  margin: 3px;
+  border: none;
+  background-color: #EFEFEF;
+  border: 1px solid rgb(189, 183, 183);
+  outline: none;
+}
+
+.pharmaceuticals .request-form textarea {
+  width: 87%;
+  padding: 15px 10px;
+  font-size: 15px;
+  margin: 3px;
+  background-color: #EFEFEF;
+  border: 1px solid rgb(189, 183, 183);
+  outline: none;
+  height: 195px;
+  font-family: unset;
+}
+
+.pharmaceuticals .request-form button {
+  padding: 13px 33px;
+  font-size: 15px;
+  margin: 3px;
+  border: none;
+  background-color: #1293FF;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pharmaceuticals .request-form button:hover {
+  background-color: rgb(9, 71, 122);
+}
+
+.pharmaceuticals .pharma .medicine {
+  display: flex;
+  background-color: #F8F8F8;
+  padding: 10px 0 100px 0px;
+  margin: 2px;
+}
+
+.pharmaceuticals .pharma .medicine .item {
+  width: calc(100% * (1/4));
+  padding: 10px 0px;
+  margin: 7px;
+  background-color: white;
+}
+
+.pharmaceuticals .pharma .medicine img {
+  width: 100%;
+}
+
+.pharmaceuticals .pharma .medicine .item .content {
+  text-align: center;
+  padding: 15px 0px 0 0;
+  background-color: white;
+  cursor: pointer;
+
+}
+
+.pharmaceuticals .pharma .medicine .item .content p {
+  padding: 15px 0 15px 0;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.pharmaceuticals .pharma .medicine .item .content button {
+  width: 100%;
+  padding: 10px 25px;
+  background-color: #1293FF;
+  font-weight: 530;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.pharmaceuticals .pharma .medicine .item .content button:hover {
+  background-color: rgb(9, 71, 122);
+}
+
+.pharmaceuticals .pharma .vaccine {
+  display: flex;
+  background-color: #F8F8F8;
+  padding: 10px 0 100px 0px;
+  margin: 2px;
+  margin-bottom: 15%;
+}
+
+.pharmaceuticals .pharma .vaccine .item {
+  width: calc(100% * (1/4));
+  padding: 10px 0px;
+  margin: 7px;
+  background-color: white;
+}
+
+.pharmaceuticals .pharma .vaccine img {
+  width: 100%;
+}
+
+.pharmaceuticals .pharma .vaccine .item .content {
+  text-align: center;
+  padding: 15px 0px 0 0;
+  background-color: white;
+
+}
+
+.pharmaceuticals .pharma .vaccine .item .content p {
+  padding: 15px 0 15px 0;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.pharmaceuticals .pharma .vaccine .item .content button {
+  width: 100%;
+  padding: 10px 25px;
+  background-color: #1293FF;
+  font-weight: 530;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.pharmaceuticals .pharma .vaccine .item .content button:hover {
+  background-color: rgb(9, 71, 122);
+}
+
+/* Responsive */
+@media (max-width: 1301px) {
+  .triangle-shape {
+    width: 0;
+    height: 50px;
+    border-left: 680.2px solid transparent;
+    border-right: 550.2px solid transparent;
+    border-bottom: 50px solid #dddfe2;
+  }
+
+  .hero {
+    width: 100%;
+    height: 90vh;
+  }
+
+  .hero img {
+    width: 100%;
+    height: 99vh;
+  }
+
+  .services {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 100px;
+  }
+
+  .services .item {
+    width: calc(100% * (1/5));
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(18, 147, 255);
+    background-color: #efefef;
+    border-top: none;
+    cursor: pointer;
+  }
+
+  .services .item img {
+    width: 70%;
+  }
+
+  .services .item .content {
+    padding-top: 10%;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+  }
+
+  .services .item hr {
+    width: 30%;
+    margin-top: 10px;
+    border: 2px solid rgb(18, 147, 255);
+  }
+
+  .services .item .bton button {
+    padding: 4px 20px;
+    border: none;
+    font-size: 12px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+  }
+
+  .services .item:hover .bton button {
+    background-color: rgb(17, 17, 17);
+    display: block;
+  }
+
+  .services .item:hover hr {
+    display: none;
+  }
+
+  /* Distributon */
+
+  .hero3 {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .hero3 img {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .marketing {
+    width: 100%;
+    padding: 2% 0%;
+  }
+
+  .marketing h1 {
+    padding: 1% 0;
+    font-size: 30px;
+    font-weight: 500;
+    color: #323232;
+    text-align: center;
+  }
+
+  .marketing p {
+    padding: 8px 4%;
+    font-size: 17px;
+    color: rgb(51, 50, 50);
+  }
+
+  .network {}
+
+  .network img {
+    width: 100%;
+    padding: 1% 5%;
+    align-items: center;
+  }
+
+  .triangle-shape2 {
+    width: 0;
+    height: 50px;
+    border-left: 658.2px solid transparent;
+    border-right: 658.2px solid transparent;
+    border-bottom: 50px solid #E5E5E5;
+  }
+
+  .setup {
+    width: 100%;
+    padding: 6% 0%;
+    background-color: #E5E5E5;
+  }
+
+  .setup h1 {
+    padding: 1% 0;
+    font-size: 30px;
+    font-weight: 600;
+    color: #323232;
+    text-align: center;
+  }
+
+  .setup ul {
+    padding: 0 8%;
+    font-size: 17px;
+  }
+
+  .setup ul li {
+    padding: 2px 0;
+    color: #1f1e1e;
+  }
+
+
+  .setup .cards {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 85px;
+
+  }
+
+  .setup .cards .item {
+    width: calc(100% * (1/5));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(18, 147, 255);
+    margin: 1%;
+  }
+
+  .cards .item .content {
+    padding-top: 28%;
+    padding-bottom: 20%;
+  }
+
+  .cards .item .content h1 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .setup .cards .item hr {
+    width: 40%;
+    margin-top: 10px;
+    border: 3px solid rgb(18, 147, 255);
+  }
+
+  /* career */
+
+  .social-hero {
+    width: 100%;
+  }
+
+  .social-hero img {
+    margin-top: 7%;
+    width: 100%;
+    height: 57vh;
+  }
+
+  .work {
+    width: 100%;
+  }
+
+  .work .word-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .work .word-heading h1 {
+    font-size: 23px;
+    margin-top: 7%;
+    padding: 2% 2%;
+    color: #323232;
+    font-weight: bold;
+  }
+
+  .work .content p {
+    font-size: 18px;
+    padding: 0% 8% 5% 8%;
+    color: rgb(51, 50, 50);
+  }
+
+  .work .content p span {
+    color: rgb(18, 147, 255);
+    cursor: pointer;
+  }
+
+  .work .content p span:hover {
+    color: rgb(13, 4, 36);
+  }
+
+  .work .word-heading hr {
+    width: 30%;
+    margin-top: 7%;
+    border: 1px solid #8b8888;
+  }
+
+  .work .form2 {
+    margin-left: 8%;
+    width: 84%;
+    margin-bottom: 10%;
+  }
+
+  .work .form2 input {
+    margin: 3px;
+    width: 100%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+  }
+
+  .work .form2 select {
+    margin: 3px;
+    width: 100%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+  }
+
+  .work .form2 select option {
+    font-size: 14px;
+  }
+
+  .work .form2 textarea {
+    margin: 3px;
+    width: 100%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+    height: 200px;
+    font-family: unset;
+  }
+
+  #myfile {
+    margin: 3px;
+    width: 20%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+  }
+
+  .work .form2 button {
+    margin: 3px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(18, 147, 255);
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .work .form2 button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  /* Contact */
+  .query {
+    display: flex;
+    padding: 20% 0%;
+    width: 100%;
+  }
+
+  .query .form3 .quary-heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .query .form3 .quary-heading hr {
+    width: 35%;
+    margin-top: -25px;
+    border: 1px solid #323232;
+  }
+
+  .query .form3 h1 {
+    font-size: 25px;
+    padding: 0 0 6% 0;
+    font-weight: bold;
+    color: #323232;
+  }
+
+  .query .form3 {
+    margin-left: 7%;
+    width: 35%;
+  }
+
+  .query .map {
+    width: 65%;
+  }
+
+  .query .map iframe {
+    width: 90%;
+    height: 100%;
+    border: none;
+  }
+
+  .query .form3 input {
+    margin: 3px;
+    width: 80%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+  }
+
+  .query .form3 select {
+    margin: 3px;
+    width: 80%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+  }
+
+  .query .form3 textarea {
+    margin: 3px;
+    width: 80%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+    height: 170px;
+    border: 1px solid rgb(158, 156, 156);
+    font-family: unset;
+  }
+
+  .query .form3 .bton button {
+    margin: 3px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(18, 147, 255);
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .query .form3 .bton button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  /* surgical */
+  .disposable-hero img {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .disposable-heading h1 {
+    font-size: 40px;
+    padding: 4% 0% 8% 5%;
+    color: #1f1e1e;
+  }
+
+  .surgical {
+    width: 100%;
+    display: flex;
+  }
+
+  .surgical .disposable {
+    width: 70%;
+    padding: 0 0 0 5%;
+  }
+
+  .surgical .disposable .surgical-heading {
+    width: 100%;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: #323232;
+  }
+
+  .surgical .disposable .surgical-image {
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 20% 0;
+  }
+
+  .surgical .disposable .surgical-image .item {
+    width: calc(100% * (2/6));
+    padding: 4% 15px;
+  }
+
+  .surgical .disposable .surgical-image img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .surgical .disposable .surgical-image .content {
+    width: 100%;
+    padding: 22px 0 0 0;
+    text-align: center;
+    background-color: white;
+    margin-top: -5px;
+  }
+
+  .surgical .disposable .surgical-image .content p {
+    font-size: 15px;
+    padding: 15px 0 30px 0;
+    text-transform: uppercase;
+    color: rgb(99, 98, 98);
+  }
+
+  .surgical .disposable .surgical-image button {
+    width: 100%;
+    padding: 14px 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #1293FF;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .surgical .disposable .surgical-image button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .surgical .request-appointment {
+    width: 30%;
+  }
+
+  .surgical .request-appointment .appointment-heading {
+    font-size: 16px;
+    padding: 2% 0 8% 0;
+    color: #323232;
+  }
+
+  .surgical .request-appointment input {
+    width: 80%;
+    padding: 15px 10px;
+    font-size: 15px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+  }
+
+  .surgical .request-appointment select {
+    width: 80%;
+    padding: 15px 10px;
+    font-size: 15px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+
+    outline: none;
+  }
+
+  .surgical .request-appointment textarea {
+    width: 80%;
+    padding: 15px 10px;
+    font-size: 15px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+    height: 180px;
+    font-family: unset;
+  }
+
+  .surgical .request-appointment button {
+    padding: 13px 33px;
+    font-size: 15px;
+    margin: 3px;
+    border: none;
+    background-color: #1293FF;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .surgical .request-appointment button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .surgical .surgical-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .surgical .surgical-heading hr {
+    width: 64%;
+  }
+
+  .surgical .appointment-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .surgical .appointment-heading hr {
+    width: 19%;
+  }
+
+  /* pharma */
+  .pharma-image img {
+    width: 100%;
+    height: 85vh;
+  }
+
+  .pharma-heading {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2% 0 5% 6%;
+    color: #323232;
+  }
+
+  .pharmaceuticals .pharma {
+    display: flex;
+    width: 100%;
+  }
+
+  .pharmaceuticals .pharma .list {
+    width: 60%;
+  }
+
+  .pharmaceuticals .pharma .list ul {
+    width: 95%;
+    padding: 10px 0 0 9%;
+    cursor: pointer;
+    color: #666666;
+  }
+
+  .pharmaceuticals .pharma .list ul li {
+    font-size: 23px;
+    padding: 10px 2%;
+    text-decoration: none;
+    list-style: none;
+    background-color: #F8F8F8;
+    margin: 2px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+
+  .pharmaceuticals .pharma svg {
+    width: 25px;
+    margin: -6px 9px;
+
+  }
+
+  .pharmaceuticals .request-form {
+    width: 40%;
+    padding: 0 0 10% 0;
+  }
+
+  .pharmaceuticals .request-form .request-heading {
+    font-size: 15px;
+    padding: 0 0 35px 0;
+    color: #323232;
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+  .pharmaceuticals .request-form .request-heading {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .pharmaceuticals .request-form .request-heading hr {
+    margin-top: 5px;
+    width: 18.3%;
+  }
+
+  .pharmaceuticals .request-form input {
+    width: 87%;
+    padding: 15px 10px;
+    font-size: 15px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+  }
+
+  .pharmaceuticals .request-form select {
+    width: 87%;
+    padding: 16px 10px;
+    margin: 3px;
+    border: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+  }
+
+  .pharmaceuticals .request-form textarea {
+    width: 87%;
+    padding: 15px 10px;
+    font-size: 15px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+    height: 195px;
+    font-family: unset;
+  }
+
+  .pharmaceuticals .request-form button {
+    padding: 13px 33px;
+    font-size: 15px;
+    margin: 3px;
+    border: none;
+    background-color: #1293FF;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .pharmaceuticals .request-form button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .pharmaceuticals .pharma .medicine {
+    display: flex;
+    background-color: #F8F8F8;
+    padding: 10px 0 100px 0px;
+    margin: 2px;
+  }
+
+  .pharmaceuticals .pharma .medicine .item {
+    width: calc(100% * (1/4));
+    padding: 10px 0px;
+    margin: 7px;
+    background-color: white;
+  }
+
+  .pharmaceuticals .pharma .medicine img {
+    width: 100%;
+  }
+
+  .pharmaceuticals .pharma .medicine .item .content {
+    text-align: center;
+    padding: 15px 0px 0 0;
+    background-color: white;
+    cursor: pointer;
+
+  }
+
+  .pharmaceuticals .pharma .medicine .item .content p {
+    padding: 15px 0 15px 0;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .pharmaceuticals .pharma .medicine .item .content button {
+    width: 100%;
+    padding: 10px 25px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .pharmaceuticals .pharma .medicine .item .content button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .pharmaceuticals .pharma .vaccine {
+    display: flex;
+    background-color: #F8F8F8;
+    padding: 10px 0 100px 0px;
+    margin: 2px;
+    margin-bottom: 15%;
+  }
+
+  .pharmaceuticals .pharma .vaccine .item {
+    width: calc(100% * (1/4));
+    padding: 10px 0px;
+    margin: 7px;
+    background-color: white;
+  }
+
+  .pharmaceuticals .pharma .vaccine img {
+    width: 100%;
+  }
+
+  .pharmaceuticals .pharma .vaccine .item .content {
+    text-align: center;
+    padding: 15px 0px 0 0;
+    background-color: white;
+
+  }
+
+  .pharmaceuticals .pharma .vaccine .item .content p {
+    padding: 15px 0 15px 0;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .pharmaceuticals .pharma .vaccine .item .content button {
+    width: 100%;
+    padding: 10px 25px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .pharmaceuticals .pharma .vaccine .item .content button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+}
+
+@media (min-width:1008px) and (max-width:1300px) {
+  .triangle-shape {
+    width: 0;
+    height: 50px;
+    border-left: 520.2px solid transparent;
+    border-right: 490.2px solid transparent;
+    border-bottom: 50px solid #dddfe2;
+  }
+
+  .hero {
+    width: 100%;
+    height: 90vh;
+  }
+
+  .hero img {
+    width: 100%;
+    height: 99vh;
+  }
+
+  .services {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 100px;
+  }
+
+  .services .item {
+    width: calc(100% * (1/5));
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(18, 147, 255);
+    background-color: #efefef;
+    border-top: none;
+    cursor: pointer;
+  }
+
+  .services .item img {
+    width: 70%;
+  }
+
+  .services .item .content {
+    padding-top: 10%;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+  }
+
+  .services .item hr {
+    width: 30%;
+    margin-top: 10px;
+    border: 2px solid rgb(18, 147, 255);
+  }
+
+  .services .item .bton button {
+    padding: 4px 20px;
+    border: none;
+    font-size: 12px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+  }
+
+  .heading h1 {
+    padding: 5% 6%;
+    background-color: #dddfe2;
+    font-size: 40PX;
+    color: rgb(44, 44, 44);
+    text-transform: uppercase;
+  }
+
+  .product {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+
+  .product .item {
+    width: calc(100% * (1/5));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    background-color: #dddfe2;
+    padding: 0 0 5% 0;
+  }
+
+  .product .item img {
+    width: 200px;
+  }
+
+  .product .item .content {
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  .product .item .content h3 {
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .product .item .content p {
+    font-size: 13px;
+    color: rgb(50, 50, 50);
+  }
+
+  .product .item .bton button {
+    padding: 6px 30px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+    margin: 5px -45px;
+    position: absolute;
+  }
+
+  .product .item:hover .bton button {
+    display: block;
+  }
+
+  .square {
+
+    height: 100px;
+    background-color: rgb(139, 149, 166);
+  }
+
+  .science {
+    margin-top: -5px;
+    background-color: rgb(139, 149, 166);
+  }
+
+  .science .content {
+    text-align: center;
+  }
+
+  .science .content h1 {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .science .content p {
+    padding: 1% 0%;
+    color: white;
+    font-size: 20px;
+  }
+
+  .science .content h3 {
+    padding: 2% 5%;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+  }
+
+  .form {
+    background-color: rgb(139, 149, 166);
+  }
+
+  .science .form {
+    padding: 1% 5% 10% 5%;
+  }
+
+  .science .form select {
+    width: 100%;
+    padding: 14px 0% 13px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(48, 47, 47);
+    outline: none;
+  }
+
+  .science .form option {
+    font-size: 14.5px;
+    text-transform: uppercase;
+    color: rgb(48, 47, 47);
+  }
+
+  .science .form input {
+    width: 100%;
+    padding: 14px 0 13px 19px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .science .form textarea {
+    width: 100%;
+    padding: 10px 0 10px 19px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    height: 200px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .science .form .bton button {
+    border: none;
+    cursor: pointer;
+    padding: 11px 30px 8px 30px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: rgb(18, 147, 255);
+    color: white;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .science .form .bton button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  /* Distributon */
+
+  .hero3 {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .hero3 img {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .marketing {
+    width: 100%;
+    padding: 2% 0%;
+  }
+
+  .marketing h1 {
+    padding: 1% 0;
+    font-size: 30px;
+    font-weight: 500;
+    color: #323232;
+    text-align: center;
+  }
+
+  .marketing p {
+    padding: 8px 4%;
+    font-size: 17px;
+    color: rgb(51, 50, 50);
+  }
+
+  .network {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .network img {
+    width: 100%;
+    padding: 1% 4%;
+  }
+
+  .triangle-shape2 {
+    width: 0;
+    height: 50px;
+    border-left: 500.2px solid transparent;
+    border-right: 500.2px solid transparent;
+    border-bottom: 50px solid #E5E5E5;
+  }
+
+  .setup {
+    width: 100%;
+    padding: 6% 0%;
+    background-color: #E5E5E5;
+  }
+
+  .setup h1 {
+    padding: 1% 0;
+    font-size: 30px;
+    font-weight: 600;
+    color: #323232;
+    text-align: center;
+  }
+
+  .setup ul {
+    padding: 0 8%;
+    font-size: 17px;
+  }
+
+  .setup ul li {
+    padding: 2px 0;
+    color: #1f1e1e;
+  }
+
+
+  .setup .cards {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 85px;
+
+  }
+
+  .setup .cards .item {
+    width: calc(100% * (1/5));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(18, 147, 255);
+    margin: 1%;
+  }
+
+  .cards .item .content {
+    padding-top: 28%;
+    padding-bottom: 20%;
+  }
+
+  .cards .item .content h1 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .setup .cards .item hr {
+    width: 40%;
+    margin-top: 10px;
+    border: 3px solid rgb(18, 147, 255);
+  }
+
+  /* career */
+
+  .social-hero {
+    width: 100%;
+  }
+
+  .social-hero img {
+    margin-top: 7%;
+    width: 100%;
+    height: 57vh;
+  }
+
+  .work {
+    width: 100%;
+  }
+
+  .work .word-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .work .word-heading h1 {
+    font-size: 23px;
+    margin-top: 7%;
+    padding: 2% 2%;
+    color: #323232;
+    font-weight: bold;
+  }
+
+  .work .content p {
+    font-size: 18px;
+    padding: 0% 8% 5% 8%;
+    color: rgb(51, 50, 50);
+  }
+
+  .work .content p span {
+    color: rgb(18, 147, 255);
+    cursor: pointer;
+  }
+
+  .work .content p span:hover {
+    color: rgb(13, 4, 36);
+  }
+
+  .work .word-heading hr {
+    width: 30%;
+    margin-top: 7%;
+    border: 1px solid #8b8888;
+  }
+
+  .work .form2 {
+    margin-left: 8%;
+    width: 84%;
+    margin-bottom: 10%;
+  }
+
+  .work .form2 input {
+    margin: 3px;
+    width: 100%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+  }
+
+  .work .form2 select {
+    margin: 3px;
+    width: 100%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+  }
+
+  .work .form2 select option {
+    font-size: 14px;
+  }
+
+  .work .form2 textarea {
+    margin: 3px;
+    width: 100%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+    height: 200px;
+    font-family: unset;
+  }
+
+  #myfile {
+    margin: 3px;
+    width: 25%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+  }
+
+  .work .form2 button {
+    margin: 3px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(18, 147, 255);
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .work .form2 button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  /* Contact */
+  .query {
+    display: flex;
+    padding: 20% 0%;
+    width: 100%;
+  }
+
+  .query .form3 .quary-heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .query .form3 .quary-heading hr {
+    width: 25%;
+    margin-top: -25px;
+    border: 1px solid #323232;
+  }
+
+  .query .form3 h1 {
+    font-size: 23px;
+    padding: 0 0 6% 0;
+    font-weight: bold;
+    color: #323232;
+  }
+
+  .query .form3 {
+    margin-left: 7%;
+    width: 35%;
+  }
+
+  .query .map {
+    width: 60%;
+  }
+
+  .query .map iframe {
+    width: 90%;
+    height: 100%;
+    border: none;
+  }
+
+  .query .form3 input {
+    margin: 3px;
+    width: 80%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+  }
+
+  .query .form3 select {
+    margin: 3px;
+    width: 80%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+  }
+
+  .query .form3 textarea {
+    margin: 3px;
+    width: 80%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+    height: 170px;
+    border: 1px solid rgb(158, 156, 156);
+    font-family: unset;
+  }
+
+  .query .form3 .bton button {
+    margin: 3px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(18, 147, 255);
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .query .form3 .bton button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  /* Electro */
+  .electro {
+    padding: 13% 0;
+    display: flex;
+    width: 100%;
+  }
+
+  .electro .division-heading {
+    display: flex;
+    font-size: 14px;
+    padding: 3% 0;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .electro .division-heading hr {
+    width: 33%;
+  }
+
+  .electro .divison {
+    padding: 0 0 0 6%;
+    width: 68%;
+    color: #1f1e1e;
+  }
+
+  .electro .list {
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #585858;
+  }
+
+  .electro .list ul {
+    list-style: none;
+    padding: 0% 5% 0 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .electro .list li {
+    cursor: pointer;
+    padding: 2% 2%;
+    list-style: none;
+    background-color: white;
+  }
+
+  .electro .request-form {
+    width: 32%;
+    color: #1f1e1e;
+  }
+
+  .electro .request-form .request-heading {
+    display: flex;
+    font-size: 14px;
+    padding: 6.3% 0;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .electro .request-form .request-heading hr {
+    width: 15%;
+  }
+
+  .electro .request-form input {
+    margin: 3px;
+    width: 82%;
+    padding: 12px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(192, 188, 188);
+  }
+
+  .electro .request-form select {
+    margin: 3px;
+    width: 82%;
+    padding: 12px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(192, 188, 188);
+  }
+
+  .electro .request-form textarea {
+    margin: 3px;
+    width: 82%;
+    padding: 12px;
+    outline: none;
+    background-color: #EFEFEF;
+    height: 120px;
+    border: 1px solid rgb(192, 188, 188);
+    font-family: unset;
+  }
+
+  .electro .request-form .bton button {
+    margin: 3px;
+    padding: 10px 18px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(18, 147, 255);
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .electro .request-form .bton button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list .diagnostics {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  .electro .list .diagnostics .item {
+    width: calc(100% * (2/10));
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 3%;
+  }
+
+  .electro .list .diagnostics img {
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .electro .list .diagnostics .content {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .electro .list .diagnostics .content p {
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .electro .list .diagnostics button {
+    padding: 10px 18px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .electro .list .diagnostics button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list .gynecology {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  .electro .list .gynecology .item {
+    width: calc(100% * (2/10));
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 3%;
+  }
+
+  .electro .list .gynecology img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .electro .list .gynecology .content {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .electro .list .gynecology .content p {
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .electro .list .gynecology button {
+    padding: 10px 18px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .electro .list .gynecology button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list .hematology {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  .electro .list .hematology .item {
+    width: calc(100% * (2/10));
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 3%;
+  }
+
+  .electro .list .hematology img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .electro .list .hematology .content {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .electro .list .hematology .content p {
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .electro .list .hematology button {
+    padding: 10px 18px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .electro .list .hematology button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list .icu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  .electro .list .icu .item {
+    width: calc(100% * (2/10));
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 3%;
+  }
+
+  .electro .list .icu img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .electro .list .icu .content {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .electro .list .icu .content p {
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .electro .list .icu button {
+    padding: 10px 18px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .electro .list .icu button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list .urology {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  .electro .list .urology .item {
+    width: calc(100% * (2/10));
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 3%;
+  }
+
+  .electro .list .urology img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .electro .list .urology .content {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .electro .list .urology .content p {
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .electro .list .urology button {
+    padding: 10px 18px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .electro .list .urology button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list svg {
+    width: 25px;
+    margin: -6px 9px;
+    color: black;
+  }
+
+  /* surgical */
+  .disposable-hero img {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .disposable-heading h1 {
+    font-size: 38px;
+    padding: 4% 0% 8% 5%;
+    color: #1f1e1e;
+  }
+
+  .surgical {
+    width: 100%;
+    display: flex;
+  }
+
+  .surgical .disposable {
+    width: 65%;
+    padding: 0 0 0 5%;
+  }
+
+  .surgical .disposable .surgical-heading {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #323232;
+  }
+
+  .surgical .disposable .surgical-image {
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 20% 0;
+  }
+
+  .surgical .disposable .surgical-image .item {
+    width: calc(100% * (2/6));
+    padding: 4% 14px;
+  }
+
+  .surgical .disposable .surgical-image img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .surgical .disposable .surgical-image .content {
+    width: 100%;
+    padding: 22px 0 0 0;
+    text-align: center;
+    background-color: white;
+    margin-top: -5px;
+  }
+
+  .surgical .disposable .surgical-image .content p {
+    font-size: 14px;
+    padding: 15px 0 30px 0;
+    text-transform: uppercase;
+    color: rgb(99, 98, 98);
+  }
+
+  .surgical .disposable .surgical-image button {
+    width: 100%;
+    padding: 13px 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #1293FF;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .surgical .disposable .surgical-image button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .surgical .request-appointment {
+    width: 35%;
+  }
+
+  .surgical .request-appointment .appointment-heading {
+    font-size: 14px;
+    padding: 4% 0 10% 0;
+    color: #323232;
+  }
+
+  .surgical .request-appointment input {
+    width: 80%;
+    padding: 12px 13px;
+    font-size: 13px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+  }
+
+  .surgical .request-appointment select {
+    width: 80%;
+    padding: 12px 10px;
+    font-size: 13px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+  }
+
+  .surgical .request-appointment textarea {
+    width: 80%;
+    padding: 15px 13px;
+    font-size: 13px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+    height: 180px;
+    font-family: unset;
+  }
+
+  .surgical .request-appointment button {
+    padding: 13px 33px;
+    font-size: 15px;
+    margin: 3px;
+    border: none;
+    background-color: #1293FF;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .surgical .request-appointment button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .surgical .surgical-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .surgical .surgical-heading hr {
+    width: 53%;
+  }
+
+  .surgical .appointment-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .surgical .appointment-heading hr {
+    width: 15%;
+  }
+
+  /* pharma */
+  .pharma-image img {
+    width: 100%;
+    height: 85vh;
+  }
+
+  .pharma-heading {
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2% 0 5% 6%;
+    color: #323232;
+  }
+
+  .pharmaceuticals .pharma {
+    display: flex;
+    width: 100%;
+  }
+
+  .pharmaceuticals .pharma .list {
+    width: 60%;
+  }
+
+  .pharmaceuticals .pharma .list ul {
+    width: 95%;
+    padding: 10px 0 0 9%;
+    cursor: pointer;
+    color: #666666;
+  }
+
+  .pharmaceuticals .pharma .list ul li {
+    font-size: 23px;
+    padding: 10px 2%;
+    text-decoration: none;
+    list-style: none;
+    background-color: #F8F8F8;
+    margin: 2px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+
+  .pharmaceuticals .pharma svg {
+    width: 25px;
+    margin: -6px 9px;
+
+  }
+
+  .pharmaceuticals .request-form {
+    width: 40%;
+    padding: 0 0 10% 0;
+  }
+
+  .pharmaceuticals .request-form .request-heading {
+    padding: 0 0 35px 0;
+    color: #323232;
+    font-size: 13px;
+    font-weight: 800;
+  }
+
+  .pharmaceuticals .request-form .request-heading {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .pharmaceuticals .request-form .request-heading hr {
+    margin-top: 5px;
+    width: 0%;
+    border: 0px solid;
+  }
+
+  .pharmaceuticals .request-form input {
+    width: 87%;
+    padding: 15px 10px;
+    font-size: 15px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+  }
+
+  .pharmaceuticals .request-form select {
+    width: 87%;
+    padding: 16px 10px;
+    margin: 3px;
+    border: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+  }
+
+  .pharmaceuticals .request-form textarea {
+    width: 87%;
+    padding: 15px 10px;
+    font-size: 15px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+    height: 195px;
+    font-family: unset;
+  }
+
+  .pharmaceuticals .request-form button {
+    padding: 12px 30px;
+    font-size: 14px;
+    margin: 3px;
+    border: none;
+    background-color: #1293FF;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .pharmaceuticals .request-form button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .pharmaceuticals .pharma .medicine {
+    display: flex;
+    background-color: #F8F8F8;
+    padding: 10px 0 100px 0px;
+    margin: 2px;
+  }
+
+  .pharmaceuticals .pharma .medicine .item {
+    width: calc(100% * (1/4));
+    padding: 10px 0px;
+    margin: 7px;
+    background-color: white;
+  }
+
+  .pharmaceuticals .pharma .medicine img {
+    width: 100%;
+  }
+
+  .pharmaceuticals .pharma .medicine .item .content {
+    text-align: center;
+    padding: 15px 0px 0 0;
+    background-color: white;
+    cursor: pointer;
+
+  }
+
+  .pharmaceuticals .pharma .medicine .item .content p {
+    padding: 15px 0 15px 0;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .pharmaceuticals .pharma .medicine .item .content button {
+    width: 100%;
+    padding: 10px 25px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+
+  .pharmaceuticals .pharma .medicine .item .content button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .pharmaceuticals .pharma .vaccine {
+    display: flex;
+    background-color: #F8F8F8;
+    padding: 10px 0 100px 0px;
+    margin: 2px;
+    margin-bottom: 15%;
+  }
+
+  .pharmaceuticals .pharma .vaccine .item {
+    width: calc(100% * (1/4));
+    padding: 10px 0px;
+    margin: 7px;
+    background-color: white;
+  }
+
+  .pharmaceuticals .pharma .vaccine img {
+    width: 100%;
+  }
+
+  .pharmaceuticals .pharma .vaccine .item .content {
+    text-align: center;
+    padding: 15px 0px 0 0;
+    background-color: white;
+
+  }
+
+  .pharmaceuticals .pharma .vaccine .item .content p {
+    padding: 15px 0 15px 0;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .pharmaceuticals .pharma .vaccine .item .content button {
+    width: 100%;
+    padding: 10px 25px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+
+  .pharmaceuticals .pharma .vaccine .item .content button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+}
+
+@media (min-width:641px) and (max-width:1007px) {
+  .triangle-shape {
+    width: 0;
+    height: 50px;
+    border-left: 350.2px solid transparent;
+    border-right: 300.2px solid transparent;
+    border-bottom: 50px solid #dddfe2;
+  }
+
+  .hero {
+    width: 100%;
+    height: 90vh;
+  }
+
+  .hero img {
+    width: 100%;
+    height: 99vh;
+  }
+
+  .services {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 100px;
+  }
+
+  .services .item {
+    width: calc(100% * (1/5));
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(18, 147, 255);
+    background-color: #efefef;
+    border-top: none;
+    cursor: pointer;
+  }
+
+  .services .item img {
+    width: 70%;
+  }
+
+  .services .item .content {
+    padding-top: 10%;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+  }
+
+  .services .item hr {
+    width: 30%;
+    margin-top: 10px;
+    border: 2px solid rgb(18, 147, 255);
+  }
+
+  .services .item .bton button {
+    padding: 4px 20px;
+    border: none;
+    font-size: 12px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+  }
+
+  .welcome {
+    width: 100%;
+    display: flex;
+  }
+
+  .welcome .content {
+    width: 60%;
+  }
+
+  .welcome .content h1 {
+    padding: 1% 10%;
+    font-size: 40PX;
+    color: rgb(44, 44, 44);
+    text-transform: uppercase;
+  }
+
+  .welcome .content p {
+    padding: 1% 10%;
+    font-size: 14.5PX;
+    color: rgb(44, 44, 44);
+  }
+
+  .heading h1 {
+    padding: 5% 3%;
+    background-color: #dddfe2;
+    font-size: 35PX;
+    color: rgb(44, 44, 44);
+    text-transform: uppercase;
+  }
+
+  .product {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+
+  .product .item {
+    width: calc(100% * (1/5));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    background-color: #dddfe2;
+    padding: 0 0 5% 0;
+  }
+
+  .product .item img {
+    width: 150px;
+  }
+
+  .product .item .content {
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  .product .item .content h3 {
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .product .item .content p {
+    font-size: 12px;
+    color: rgb(50, 50, 50);
+  }
+
+  .product .item .bton button {
+    padding: 6px 30px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+    margin: 5px -45px;
+    position: absolute;
+  }
+
+  .product .item:hover .bton button {
+    display: block;
+  }
+
+  .square {
+
+    height: 100px;
+    background-color: rgb(139, 149, 166);
+  }
+
+  .science {
+    margin-top: -5px;
+    background-color: rgb(139, 149, 166);
+  }
+
+  .science .content {
+    text-align: center;
+  }
+
+  .science .content h1 {
+    font-size: 33px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .science .content p {
+    padding: 1% 0%;
+    color: white;
+    font-size: 20px;
+  }
+
+  .science .content h3 {
+    padding: 2% 5%;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+  }
+
+  .form {
+    background-color: rgb(139, 149, 166);
+  }
+
+  .science .form {
+    padding: 1% 5% 10% 5%;
+  }
+
+  .science .form select {
+    width: 100%;
+    padding: 14px 0% 13px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(48, 47, 47);
+    outline: none;
+  }
+
+  .science .form option {
+    font-size: 14.5px;
+    text-transform: uppercase;
+    color: rgb(48, 47, 47);
+  }
+
+  .science .form input {
+    width: 100%;
+    padding: 14px 0% 13px 19px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .science .form textarea {
+    width: 100%;
+    padding: 10px 0% 10px 19px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    height: 200px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .science .form .bton button {
+    border: none;
+    cursor: pointer;
+    padding: 11px 30px 8px 30px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: rgb(18, 147, 255);
+    color: white;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .science .form .bton button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  /* About */
+  .hero2 {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .hero2 img {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+  }
+
+  .container .row {
+    width: 50%;
+    margin: 5% 5% 3% 5%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container .row h1 {
+    font-size: 20px;
+    padding: 5% 0px;
+  }
+
+  .container .row p {
+    font-size: 15px;
+    padding: 3% 0%;
+    color: rgb(73, 72, 72);
+  }
+
+  .container .row .about .usericon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .container .row .about .usericon svg {
+    width: 48px;
+  }
+
+  .container .row .about hr {
+    width: 33%;
+    border: 1px solid grey;
+  }
+
+  .container .row2 {
+    width: 50%;
+    margin: 5% 3% 5% 0%;
+  }
+
+  .container .row2 .values h1 {
+    font-size: 20px;
+    padding: 5% 0%;
+  }
+
+  .container .row2 .values p {
+    width: 100%;
+    font-size: 15px;
+    padding: 3% 0%;
+    color: rgb(73, 72, 72);
+  }
+
+  .container .row2 .values .chart-baricon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .container .row2 .values .chart-baricon svg {
+    width: 48px;
+  }
+
+  .container .row2 .values .chart-baricon hr {
+    width: 31%;
+    border: 1px solid grey;
+  }
+
+
+  .container .row2 .vission h1 {
+    font-size: 20px;
+    padding: 5% 0%;
+  }
+
+  .container .row2 .vission p {
+    width: 100%;
+    font-size: 15px;
+    padding: 1% 0px;
+    color: rgb(73, 72, 72);
+  }
+
+  .container .row2 .vission .eyeicon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .container .row2 .vission .eyeicon svg {
+    width: 55px;
+  }
+
+  .container .row2 .vission .eyeicon hr {
+    width: 28%;
+    border: 1px solid grey;
+  }
+
+  .container .row2 .mission h1 {
+    font-size: 20px;
+    padding: 5% 0%;
+  }
+
+  .container .row2 .mission p {
+    width: 100%;
+    font-size: 15px;
+    padding: 3% 0%;
+    color: rgb(73, 72, 72);
+  }
+
+  .container .row2 .mission .rocket {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .container .row2 .mission .rocket svg {
+    width: 58px;
+  }
+
+  .container .row2 .mission .rocket hr {
+    width: 27%;
+    border: 1px solid grey;
+  }
+
+  .biography {
+    width: 100%;
+    padding: 5% 5%;
+    background-color: #E5E5E5;
+  }
+
+  .biography h1 {
+    padding: 1% 0;
+    font-size: 40px;
+    color: #323232;
+  }
+
+  .biography p {
+    font-size: 19px;
+    color: rgb(51, 50, 50);
+  }
+
+  .biography img {
+    padding: 6% 0;
+    width: 100%;
+  }
+
+  /* Distributon */
+
+  .hero3 {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .hero3 img {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .marketing {
+    width: 100%;
+    padding: 2% 0%;
+  }
+
+  .marketing h1 {
+    padding: 1% 0;
+    font-size: 30px;
+    font-weight: 500;
+    color: #323232;
+    text-align: center;
+  }
+
+  .marketing p {
+    padding: 8px 4%;
+    font-size: 17px;
+    color: rgb(51, 50, 50);
+  }
+
+  .network {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .network img {
+    width: 100%;
+    padding: 1% 4%;
+  }
+
+  .triangle-shape2 {
+    width: 0;
+    height: 50px;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 5px solid #E5E5E5;
+  }
+
+  .setup {
+    width: 100%;
+    padding: 6% 0%;
+    background-color: #E5E5E5;
+  }
+
+  .setup h1 {
+    padding: 1% 0;
+    font-size: 28px;
+    font-weight: 600;
+    color: #323232;
+    text-align: center;
+  }
+
+  .setup ul {
+    padding: 0 8%;
+    font-size: 16px;
+  }
+
+  .setup ul li {
+    padding: 2px 0;
+    color: #1f1e1e;
+  }
+
+
+  .setup .cards {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 85px;
+
+  }
+
+  .setup .cards .item {
+    padding: 1px 1px;
+    width: calc(100% * (1/5));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(18, 147, 255);
+    margin: 1%;
+  }
+
+  .cards .item .content {
+    padding-top: 28%;
+    padding-bottom: 20%;
+  }
+
+  .cards .item .content h1 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .setup .cards .item hr {
+    width: 40%;
+    margin-top: 10px;
+    border: 2px solid rgb(18, 147, 255);
+  }
+
+  /* career */
+
+  .social-hero {
+    width: 100%;
+  }
+
+  .social-hero img {
+    margin-top: 7%;
+    width: 100%;
+    height: 55vh;
+  }
+
+  .work {
+    width: 100%;
+  }
+
+  .work .word-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .work .word-heading h1 {
+    font-size: 20px;
+    margin-top: 7%;
+    padding: 2% 2%;
+    color: #323232;
+    font-weight: bold;
+  }
+
+  .work .content p {
+    font-size: 16px;
+    padding: 0% 8% 5% 8%;
+    color: rgb(51, 50, 50);
+  }
+
+  .work .content p span {
+    color: rgb(18, 147, 255);
+    cursor: pointer;
+  }
+
+  .work .content p span:hover {
+    color: rgb(13, 4, 36);
+  }
+
+  .work .word-heading hr {
+    width: 25%;
+    margin-top: 7%;
+    border: 1px solid #8b8888;
+  }
+
+  .work .form2 {
+    margin-left: 8%;
+    width: 84%;
+    margin-bottom: 10%;
+  }
+
+  .work .form2 input {
+    margin: 3px;
+    width: 100%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+  }
+
+  .work .form2 select {
+    margin: 3px;
+    width: 100%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+  }
+
+  .work .form2 select option {
+    font-size: 14px;
+  }
+
+  .work .form2 textarea {
+    margin: 3px;
+    width: 100%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+    height: 200px;
+    font-family: unset;
+  }
+
+  #myfile {
+    margin: 3px;
+    width: 37%;
+    padding: 13px;
+    outline: none;
+    background-color: #EFEFEF;
+  }
+
+  .work .form2 button {
+    margin: 3px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(18, 147, 255);
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .work .form2 button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  /* Contact */
+  .query {
+    display: flex;
+    padding: 30% 0%;
+    width: 100%;
+    margin-bottom: -20%;
+  }
+
+  .query .form3 .quary-heading {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .query .form3 .quary-heading hr {
+    width: 0;
+    margin-top: -0px;
+    border: 0px solid #323232;
+  }
+
+  .query .form3 h1 {
+    font-size: 22px;
+    padding: 0 0 6% 0;
+    font-weight: bold;
+    color: #323232;
+  }
+
+  .query .form3 {
+    margin-left: 7%;
+    width: 45%;
+  }
+
+  .query .map {
+    width: 55%;
+  }
+
+  .query .map iframe {
+    width: 90%;
+    height: 93%;
+    border: none;
+  }
+
+  .query .form3 input {
+    margin: 3px;
+    width: 82%;
+    padding: 12px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+  }
+
+  .query .form3 select {
+    margin: 3px;
+    width: 82%;
+    padding: 12px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+  }
+
+  .query .form3 textarea {
+    margin: 3px;
+    width: 82%;
+    padding: 12px;
+    outline: none;
+    background-color: #EFEFEF;
+    height: 170px;
+    border: 1px solid rgb(158, 156, 156);
+    font-family: unset;
+  }
+
+  .query .form3 .bton button {
+    margin: 3px;
+    padding: 9px 22px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(18, 147, 255);
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .query .form3 .bton button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  /* Electro */
+  .electro {
+    padding: 25% 0;
+    display: flex;
+    width: 100%;
+  }
+
+  .electro .division-heading {
+    display: flex;
+    font-size: 12px;
+    padding: 3% 0;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .electro .division-heading hr {
+    width: 0px;
+    border: 0px solid;
+  }
+
+  .electro .divison {
+    padding: 0 0 0 6%;
+    width: 63%;
+    color: #1f1e1e;
+  }
+
+  .electro .list {
+    font-size: 21px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #585858;
+  }
+
+  .electro .list ul {
+    list-style: none;
+    padding: 0% 5% 0 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .electro .list li {
+    cursor: pointer;
+    padding: 2% 2%;
+    list-style: none;
+    background-color: white;
+  }
+
+  .electro .request-form {
+    width: 37%;
+    color: #1f1e1e;
+  }
+
+  .electro .request-form .request-heading {
+    display: flex;
+    font-size: 12px;
+    padding: 6.3% 0;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .electro .request-form .request-heading hr {
+    width: 0%;
+    border: 0px solid;
+  }
+
+  .electro .request-form input {
+    margin: 3px;
+    width: 83%;
+    padding: 10px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(192, 188, 188);
+  }
+
+  .electro .request-form select {
+    margin: 3px;
+    width: 83%;
+    padding: 10px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(192, 188, 188);
+  }
+
+  .electro .request-form textarea {
+    margin: 3px;
+    width: 83%;
+    padding: 10px;
+    outline: none;
+    background-color: #EFEFEF;
+    height: 110px;
+    border: 1px solid rgb(192, 188, 188);
+    font-family: unset;
+  }
+
+  .electro .request-form .bton button {
+    margin: 3px;
+    padding: 10px 18px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(18, 147, 255);
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .electro .request-form .bton button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list .diagnostics {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  .electro .list .diagnostics .item {
+    width: calc(100% * (4/10));
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 3%;
+  }
+
+  .electro .list .diagnostics img {
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .electro .list .diagnostics .content {
+    width: 100%;
+    padding: 12px 0;
+  }
+
+  .electro .list .diagnostics .content p {
+    padding: 15px 0;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .electro .list .diagnostics button {
+    padding: 10px 25px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .electro .list .diagnostics button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list .gynecology {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  .electro .list .gynecology .item {
+    width: calc(100% * (4/10));
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 3%;
+  }
+
+  .electro .list .gynecology img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .electro .list .gynecology .content {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .electro .list .gynecology .content p {
+    padding: 15px 0;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .electro .list .gynecology button {
+    padding: 10px 25px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .electro .list .gynecology button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list .hematology {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  .electro .list .hematology .item {
+    width: calc(100% * (4/10));
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 3%;
+  }
+
+  .electro .list .hematology img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .electro .list .hematology .content {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .electro .list .hematology .content p {
+    padding: 15px 0;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .electro .list .hematology button {
+    padding: 10px 25px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .electro .list .hematology button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list .icu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  .electro .list .icu .item {
+    width: calc(100% * (4/10));
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 3%;
+  }
+
+  .electro .list .icu img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .electro .list .icu .content {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .electro .list .icu .content p {
+    padding: 15px 0;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .electro .list .icu button {
+    padding: 10px 25px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .electro .list .icu button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list .urology {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  .electro .list .urology .item {
+    width: calc(100% * (4/10));
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 3%;
+  }
+
+  .electro .list .urology img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .electro .list .urology .content {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .electro .list .urology .content p {
+    padding: 15px 0;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .electro .list .urology button {
+    padding: 10px 25px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .electro .list .urology button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list svg {
+    width: 25px;
+    margin: -6px 9px;
+    color: black;
+  }
+
+  /* surgical */
+  .disposable-hero img {
+    width: 100%;
+    margin-top: 5%;
+    height: 70vh;
+  }
+
+  .disposable-heading h1 {
+    font-size: 34px;
+    padding: 4% 0% 8% 5%;
+    color: #1f1e1e;
+  }
+
+  .surgical {
+    width: 100%;
+    display: flex;
+  }
+
+  .surgical .disposable {
+    width: 60%;
+    padding: 0 0 0 5%;
+  }
+
+  .surgical .disposable .surgical-heading {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #323232;
+  }
+
+  .surgical .disposable .surgical-image {
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 20% 0;
+  }
+
+  .surgical .disposable .surgical-image .item {
+    width: calc(100% * (2/6));
+    padding: 4% 5px;
+  }
+
+  .surgical .disposable .surgical-image img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .surgical .disposable .surgical-image .content {
+    width: 100%;
+    padding: 22px 0 0 0;
+    text-align: center;
+    background-color: white;
+    margin-top: -5px;
+  }
+
+  .surgical .disposable .surgical-image .content p {
+    font-size: 12px;
+    padding: 5px 0 15px 0;
+    text-transform: uppercase;
+    color: rgb(99, 98, 98);
+  }
+
+  .surgical .disposable .surgical-image button {
+    width: 100%;
+    padding: 12px 9px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: #1293FF;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .surgical .disposable .surgical-image button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .surgical .request-appointment {
+    width: 40%;
+  }
+
+  .surgical .request-appointment .appointment-heading {
+    font-size: 13px;
+    padding: 4% 0 10% 0;
+    color: #323232;
+  }
+
+  .surgical .request-appointment input {
+    width: 80%;
+    padding: 10px 14px;
+    font-size: 13px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+  }
+
+  .surgical .request-appointment select {
+    width: 80%;
+    padding: 10px 14px;
+    font-size: 13px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+  }
+
+  .surgical .request-appointment textarea {
+    width: 80%;
+    padding: 10px 14px;
+    font-size: 13px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+    height: 110px;
+    font-family: unset;
+  }
+
+  .surgical .request-appointment button {
+    padding: 12px 27px;
+    font-size: 13px;
+    margin: 3px;
+    border: none;
+    background-color: #1293FF;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .surgical .request-appointment button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .surgical .surgical-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .surgical .surgical-heading hr {
+    width: 0%;
+    border: 0px solid;
+  }
+
+  .surgical .appointment-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .surgical .appointment-heading hr {
+    width: 0%;
+    border: 0px solid;
+  }
+
+  /* pharma */
+  .pharma-image img {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .pharma-heading {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2% 0 5% 6%;
+    color: #323232;
+  }
+
+  .pharmaceuticals .pharma {
+    display: flex;
+    width: 100%;
+  }
+
+  .pharmaceuticals .pharma .list {
+    width: 55%;
+  }
+
+  .pharmaceuticals .pharma .list ul {
+    width: 95%;
+    padding: 10px 0 0 9%;
+    cursor: pointer;
+    color: #666666;
+  }
+
+  .pharmaceuticals .pharma .list ul li {
+    font-size: 21px;
+    padding: 10px 2%;
+    text-decoration: none;
+    list-style: none;
+    background-color: #F8F8F8;
+    margin: 2px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+
+  .pharmaceuticals .pharma svg {
+    width: 25px;
+    margin: -6px 9px;
+
+  }
+
+  .pharmaceuticals .request-form {
+    width: 45%;
+    padding: 0 0 10% 0;
+  }
+
+  .pharmaceuticals .request-form .request-heading {
+    padding: 0 0 35px 0;
+    color: #323232;
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  .pharmaceuticals .request-form .request-heading {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .pharmaceuticals .request-form .request-heading hr {
+    margin-top: 5px;
+    width: 0%;
+    border: 0px solid;
+  }
+
+  .pharmaceuticals .request-form input {
+    width: 87%;
+    padding: 12px 10px;
+    font-size: 14px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+  }
+
+  .pharmaceuticals .request-form select {
+    width: 87%;
+    padding: 12px 10px;
+    margin: 3px;
+    font-size: 14px;
+    border: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+  }
+
+  .pharmaceuticals .request-form textarea {
+    width: 87%;
+    padding: 12px 10px;
+    font-size: 15px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+    height: 195px;
+    font-family: unset;
+  }
+
+  .pharmaceuticals .request-form button {
+    padding: 12px 30px;
+    font-size: 14px;
+    margin: 3px;
+    border: none;
+    background-color: #1293FF;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .pharmaceuticals .request-form button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .pharmaceuticals .pharma .medicine {
+    display: flex;
+    background-color: #F8F8F8;
+    padding: 10px 0 100px 0px;
+    margin: 2px;
+  }
+
+  .pharmaceuticals .pharma .medicine .item {
+    width: calc(100% * (2/5));
+    padding: 10px 0px;
+    margin: 7px;
+    background-color: white;
+  }
+
+  .pharmaceuticals .pharma .medicine img {
+    width: 100%;
+  }
+
+  .pharmaceuticals .pharma .medicine .item .content {
+    text-align: center;
+    padding: 15px 0px 0 0;
+    background-color: white;
+    cursor: pointer;
+
+  }
+
+  .pharmaceuticals .pharma .medicine .item .content p {
+    padding: 15px 0 15px 0;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .pharmaceuticals .pharma .medicine .item .content button {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .pharmaceuticals .pharma .medicine .item .content button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .pharmaceuticals .pharma .vaccine {
+    display: flex;
+    background-color: #F8F8F8;
+    padding: 10px 0 100px 0px;
+    margin: 2px;
+    margin-bottom: 15%;
+  }
+
+  .pharmaceuticals .pharma .vaccine .item {
+    width: calc(100% * (2/5));
+    padding: 10px 0px;
+    margin: 7px;
+    background-color: white;
+  }
+
+  .pharmaceuticals .pharma .vaccine img {
+    width: 100%;
+  }
+
+  .pharmaceuticals .pharma .vaccine .item .content {
+    text-align: center;
+    padding: 15px 0px 0 0;
+    background-color: white;
+
+  }
+
+  .pharmaceuticals .pharma .vaccine .item .content p {
+    padding: 15px 0 15px 0;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .pharmaceuticals .pharma .vaccine .item .content button {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+
+  .pharmaceuticals .pharma .vaccine .item .content button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+}
+
+@media (min-width:360px) and (max-width:640px) {
+  .triangle-shape {
+    width: 0;
+    height: 50px;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 50px solid #dddfe2;
+  }
+
+  .hero {
+    width: 100%;
+    height: 90vh;
+  }
+
+  .hero img {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .services {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: -20%;
+    margin-bottom: 50px;
+
+  }
+
+  .services .item {
+    width: calc(100% * (1/1));
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(18, 147, 255);
+    background-color: #efefef;
+    /* border-top: none; */
+    cursor: pointer;
+  }
+
+  .services .item img {
+    width: 40%;
+  }
+
+  .services .item .content {
+    padding-top: 10%;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+  }
+
+  .services .item hr {
+    width: 30%;
+    margin-top: 10px;
+    border: 2px solid rgb(18, 147, 255);
+  }
+
+  .services .item .bton button {
+    padding: 4px 20px;
+    border: none;
+    font-size: 12px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+  }
+
+  .welcome {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .welcome .content {
+    width: 100%;
+  }
+
+  .welcome .content h1 {
+    padding: 2% 10%;
+    font-size: 30PX;
+    color: rgb(44, 44, 44);
+    text-transform: uppercase;
+  }
+
+  .welcome .content p {
+    padding: 1% 10%;
+    font-size: 14.5PX;
+    color: rgb(44, 44, 44);
+  }
+
+  .welcome .content button {
+    padding: 2% 3%;
+    font-size: 12px;
+    border: none;
+    background-color: rgb(18, 147, 255);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .welcome .content button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .welcome .image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading h1 {
+    padding: 5% 4%;
+    background-color: #dddfe2;
+    font-size: 30PX;
+    color: rgb(44, 44, 44);
+    text-transform: uppercase;
+  }
+
+  .product {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .product .item {
+    width: calc(100% * (1/1));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    background-color: #dddfe2;
+    padding: 0 0 6% 0;
+  }
+
+  .product .item img {
+    width: 160px;
+  }
+
+  .product .item .content {
+    margin-top: 8%;
+    text-align: center;
+  }
+
+  .product .item .content h3 {
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .product .item .content p {
+    font-size: 14px;
+    color: rgb(50, 50, 50);
+  }
+
+  .product .item .bton button {
+    padding: 6px 30px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+    margin: 5px -45px;
+    position: absolute;
+  }
+
+  .product .item:hover .bton button {
+    display: block;
+  }
+
+  .square {
+
+    height: 100px;
+    background-color: rgb(139, 149, 166);
+  }
+
+  .science {
+    margin-top: -50px;
+    background-color: rgb(139, 149, 166);
+  }
+
+  .science .content {
+    text-align: center;
+  }
+
+  .science .content h1 {
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .science .content p {
+    padding: 2% 0%;
+    color: white;
+    font-size: 16px;
+  }
+
+  .science .content h3 {
+    padding: 5% 5%;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+  }
+
+  .form {
+    background-color: rgb(139, 149, 166);
+  }
+
+  .science .form {
+    padding: 1% 5%;
+  }
+
+  .science .form select {
+    width: 100%;
+    padding: 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(48, 47, 47);
+    outline: none;
+  }
+
+  .science .form option {
+    font-size: 14.5px;
+    text-transform: uppercase;
+    color: rgb(48, 47, 47);
+  }
+
+  .science .form input {
+    width: 100%;
+    padding: 10px 16px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .science .form textarea {
+    width: 100%;
+    padding: 10px 16px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    height: 150px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .science .form .bton button {
+    border: none;
+    cursor: pointer;
+    padding: 11px 20px 8px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: rgb(18, 147, 255);
+    color: white;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .science .form .bton button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  /* About */
+  .hero2 {
+    width: 100%;
+    height: 55vh;
+  }
+
+  .hero2 img {
+    width: 100%;
+    height: 55vh;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .row {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 18px;
+  }
+
+  .container .row h1 {
+    font-size: 20px;
+    padding: 5% 0px;
+  }
+
+  .container .row p {
+    font-size: 14px;
+    padding: 3% 6%;
+    color: rgb(73, 72, 72);
+  }
+
+  .container .row .about .usericon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 5%;
+
+  }
+
+  .container .row .about .usericon svg {
+    width: 40px;
+
+  }
+
+  .container .row .about hr {
+    width: 47%;
+    border: 1px solid grey;
+  }
+
+  .container .row2 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 18px;
+  }
+
+  .container .row2 .values h1 {
+    font-size: 20px;
+    padding: 5% 0px;
+  }
+
+  .container .row2 .values p {
+    width: 100%;
+    font-size: 14px;
+    padding: 3% 6%;
+    color: rgb(73, 72, 72);
+  }
+
+  .container .row2 .values .chart-baricon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 5%;
+
+  }
+
+  .container .row2 .values .chart-baricon svg {
+    width: 40px;
+  }
+
+  .container .row2 .values .chart-baricon hr {
+    width: 40%;
+    border: 1px solid grey;
+  }
+
+
+  .container .row2 .vission h1 {
+    font-size: 20px;
+    padding: 5% 0%;
+  }
+
+  .container .row2 .vission p {
+    width: 100%;
+    font-size: 14px;
+    padding: 3% 6%;
+    color: rgb(73, 72, 72);
+  }
+
+  .container .row2 .vission .eyeicon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 5%;
+  }
+
+  .container .row2 .vission .eyeicon svg {
+    width: 48px;
+  }
+
+  .container .row2 .vission .eyeicon hr {
+    width: 40%;
+    border: 1px solid grey;
+  }
+
+  .container .row2 .mission h1 {
+    font-size: 20px;
+    padding: 5% 0%;
+  }
+
+  .container .row2 .mission p {
+    width: 100%;
+    font-size: 14px;
+    padding: 3% 6%;
+    color: rgb(73, 72, 72);
+  }
+
+  .container .row2 .mission .rocket {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 5%;
+  }
+
+  .container .row2 .mission .rocket svg {
+    width: 45px;
+  }
+
+  .container .row2 .mission .rocket hr {
+    width: 40%;
+    border: 1px solid grey;
+  }
+
+  .biography {
+    margin-top: 5%;
+    width: 100%;
+    padding: 5% 5%;
+    background-color: #E5E5E5;
+  }
+
+  .biography h1 {
+    padding: 3% 0;
+    font-size: 25px;
+    color: #323232;
+  }
+
+  .biography p {
+    font-size: 16px;
+    color: rgb(51, 50, 50);
+  }
+
+  .biography img {
+    padding: 6% 0;
+    width: 100%;
+  }
+
+  /* Distributon */
+
+  .hero3 {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .hero3 img {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .marketing {
+    width: 100%;
+    padding: 2% 0%;
+  }
+
+  .marketing h1 {
+    padding: 1% 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #323232;
+    text-align: center;
+  }
+
+  .marketing p {
+    padding: 8px 4%;
+    font-size: 15px;
+    color: rgb(51, 50, 50);
+  }
+
+  .network {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .network img {
+    width: 100%;
+    padding: 1% 4%;
+  }
+
+  .triangle-shape2 {
+    width: 0;
+    height: 50px;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 5px solid #E5E5E5;
+  }
+
+  .setup {
+    width: 100%;
+    padding: 6% 0%;
+    background-color: #E5E5E5;
+  }
+
+  .setup h1 {
+    padding: 1% 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #323232;
+    text-align: center;
+  }
+
+  .setup ul {
+    padding: 0 8%;
+    font-size: 15px;
+  }
+
+  .setup ul li {
+    padding: 2px 0;
+    color: #1f1e1e;
+  }
+
+
+  .setup .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 85px;
+  }
+
+  .setup .cards .item {
+    padding: 30px 70px;
+    width: calc(100% * (1/5));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(18, 147, 255);
+    margin: 1%;
+  }
+
+  .cards .item .content {
+    padding-top: 28%;
+    padding-bottom: 20%;
+  }
+
+  .cards .item .content h1 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .setup .cards .item hr {
+    width: 40px;
+    margin-top: 10px;
+    border: 2px solid rgb(18, 147, 255);
+  }
+
+  /* career */
+
+  .social-hero {
+    width: 100%;
+  }
+
+  .social-hero img {
+    margin-top: 15%;
+    width: 100%;
+    height: 43vh;
+  }
+
+  .work {
+    width: 100%;
+  }
+
+  .work .word-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .work .word-heading h1 {
+    font-size: 18px;
+    margin-top: 7%;
+    padding: 2% 2%;
+    color: #323232;
+    font-weight: bold;
+  }
+
+  .work .content p {
+    font-size: 14px;
+    padding: 0% 8% 5% 8%;
+    color: rgb(51, 50, 50);
+  }
+
+  .work .content p span {
+    color: rgb(18, 147, 255);
+    cursor: pointer;
+  }
+
+  .work .content p span:hover {
+    color: rgb(13, 4, 36);
+  }
+
+  .work .word-heading hr {
+    width: 15%;
+    margin-top: 7%;
+    border: 1px solid #8b8888;
+  }
+
+  .work .form2 {
+    margin-left: 8%;
+    width: 84%;
+    margin-bottom: 10%;
+  }
+
+  .work .form2 input {
+    margin: 3px;
+    width: 100%;
+    padding: 11px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+  }
+
+  .work .form2 select {
+    margin: 3px;
+    width: 100%;
+    padding: 11px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+  }
+
+  .work .form2 select option {
+    font-size: 11px;
+  }
+
+  .work .form2 textarea {
+    margin: 3px;
+    width: 100%;
+    padding: 11px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+    height: 150px;
+    font-family: unset;
+  }
+
+  #myfile {
+    margin: 3px;
+    width: 63%;
+    padding: 7px;
+    outline: none;
+    background-color: #EFEFEF;
+  }
+
+  .work .form2 button {
+    margin: 3px;
+    padding: 8px 17px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(18, 147, 255);
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .work .form2 button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  /* Contact */
+  .query {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30% 0 15% 0;
+    margin: auto;
+  }
+
+  .query .form3 .quary-heading {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .query .form3 .quary-heading hr {
+    width: 0;
+    margin-top: -0px;
+    border: 0px solid #323232;
+  }
+
+  .query .form3 h1 {
+    font-size: 22px;
+    padding: 0 0 6% 0;
+    font-weight: bold;
+    color: #323232;
+  }
+
+  .query .form3 {
+    width: 80%;
+  }
+
+  .query .map {
+    width: 73%;
+    margin-top: 5%;
+  }
+
+  .query .map iframe {
+    width: 100%;
+    height: 95%;
+    border: none;
+  }
+
+  .query .form3 input {
+    margin: 3px;
+    width: 90%;
+    padding: 11px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+  }
+
+  .query .form3 select {
+    margin: 3px;
+    width: 90%;
+    padding: 11px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(158, 156, 156);
+  }
+
+  .query .form3 textarea {
+    margin: 3px;
+    width: 90%;
+    padding: 11px;
+    outline: none;
+    background-color: #EFEFEF;
+    height: 170px;
+    border: 1px solid rgb(158, 156, 156);
+    font-family: unset;
+  }
+
+  .query .form3 .bton button {
+    margin: 3px;
+    padding: 9px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(18, 147, 255);
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .query .form3 .bton button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  /* Electro */
+  .electro {
+    padding: 30% 0 15% 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .electro .division-heading {
+    display: flex;
+    font-size: 10px;
+    padding: 3% 0;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .electro .division-heading hr {
+    width: 0px;
+    border: 0px solid;
+  }
+
+  .electro .divison {
+    padding: 0 0 0 6%;
+    width: 100%;
+    color: #1f1e1e;
+  }
+
+  .electro .list {
+    font-size: 19px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #585858;
+  }
+
+  .electro .list ul {
+    list-style: none;
+    padding: 0% 5% 0 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .electro .list li {
+    cursor: pointer;
+    padding: 2% 2%;
+    list-style: none;
+    background-color: white;
+  }
+
+  .electro .request-form {
+    width: 89%;
+    color: #1f1e1e;
+  }
+
+  .electro .request-form .request-heading {
+    display: flex;
+    font-size: 10px;
+    padding: 6% 0;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .electro .request-form .request-heading hr {
+    width: 0%;
+    border: 0px solid;
+  }
+
+  .electro .request-form input {
+    margin: 3px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(192, 188, 188);
+  }
+
+  .electro .request-form select {
+    margin: 3px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(192, 188, 188);
+  }
+
+  .electro .request-form textarea {
+    margin: 3px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background-color: #EFEFEF;
+    height: 120px;
+    border: 1px solid rgb(192, 188, 188);
+    font-family: unset;
+  }
+
+  .electro .request-form .bton button {
+    margin: 3px;
+    padding: 10px 18px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(18, 147, 255);
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .electro .request-form .bton button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list .diagnostics {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  .electro .list .diagnostics .item {
+    width: calc(100% * (4/10));
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 3%;
+  }
+
+  .electro .list .diagnostics img {
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .electro .list .diagnostics .content {
+    width: 100%;
+    padding: 12px 0;
+  }
+
+  .electro .list .diagnostics .content p {
+    padding: 15px 0;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .electro .list .diagnostics button {
+    padding: 10px 25px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+
+  .electro .list .diagnostics button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list .gynecology {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  .electro .list .gynecology .item {
+    width: calc(100% * (4/10));
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 3%;
+  }
+
+  .electro .list .gynecology img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .electro .list .gynecology .content {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .electro .list .gynecology .content p {
+    padding: 15px 0;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .electro .list .gynecology button {
+    padding: 10px 25px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+
+  .electro .list .gynecology button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list .hematology {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  .electro .list .hematology .item {
+    width: calc(100% * (4/10));
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 3%;
+  }
+
+  .electro .list .hematology img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .electro .list .hematology .content {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .electro .list .hematology .content p {
+    padding: 15px 0;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .electro .list .hematology button {
+    padding: 10px 25px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+
+  .electro .list .hematology button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list .icu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  .electro .list .icu .item {
+    width: calc(100% * (4/10));
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 3%;
+  }
+
+  .electro .list .icu img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .electro .list .icu .content {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .electro .list .icu .content p {
+    padding: 15px 0;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .electro .list .icu button {
+    padding: 10px 25px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+
+  .electro .list .icu button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list .urology {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  .electro .list .urology .item {
+    width: calc(100% * (4/10));
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 3%;
+  }
+
+  .electro .list .urology img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .electro .list .urology .content {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .electro .list .urology .content p {
+    padding: 15px 0;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .electro .list .urology button {
+    padding: 10px 25px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+
+  .electro .list .urology button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .electro .list svg {
+    width: 25px;
+    margin: -6px 9px;
+    color: black;
+  }
+
+  /* surgical */
+  .disposable-hero img {
+    width: 100%;
+    height: 45vh;
+    margin-top: 2%;
+  }
+
+  .disposable-heading h1 {
+    font-size: 29px;
+    padding: 4% 0% 8% 5%;
+    color: #1f1e1e;
+  }
+
+  .surgical {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .surgical .disposable {
+    width: 100%;
+    padding: 0 0 0 5%;
+  }
+
+  .surgical .disposable .surgical-heading {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #323232;
+  }
+
+  .surgical .disposable .surgical-image {
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 20% 0;
+  }
+
+  .surgical .disposable .surgical-image .item {
+    width: calc(100% * (2/6));
+    padding: 4% 5px;
+  }
+
+  .surgical .disposable .surgical-image img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .surgical .disposable .surgical-image .content {
+    width: 100%;
+    padding: 22px 0 0 0;
+    text-align: center;
+    background-color: white;
+    margin-top: -8px;
+  }
+
+  .surgical .disposable .surgical-image .content p {
+    font-size: 12px;
+    padding: 5px 0 15px 0;
+    text-transform: uppercase;
+    color: rgb(99, 98, 98);
+  }
+
+  .surgical .disposable .surgical-image button {
+    width: 100%;
+    padding: 10px 9px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #1293FF;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .surgical .disposable .surgical-image button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .surgical .request-appointment {
+    width: 100%;
+    padding: 0 0 5% 33px;
+    margin-top: -50px;
+  }
+
+  .surgical .request-appointment .appointment-heading {
+    font-size: 13px;
+    color: #323232;
+    margin-bottom: -20px;
+  }
+
+  .surgical .request-appointment input {
+    width: 93%;
+    padding: 10px 14px;
+    font-size: 13px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+  }
+
+  .surgical .request-appointment select {
+    width: 93%;
+    padding: 10px 14px;
+    font-size: 13px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+  }
+
+  .surgical .request-appointment textarea {
+    width: 93%;
+    padding: 10px 14px;
+    font-size: 13px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+    height: 120px;
+    font-family: unset;
+  }
+
+  .surgical .request-appointment button {
+    padding: 12px 27px;
+    font-size: 13px;
+    margin: 3px;
+    border: none;
+    background-color: #1293FF;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .surgical .request-appointment button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .surgical .surgical-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .surgical .surgical-heading hr {
+    width: 0%;
+    border: 0px solid;
+  }
+
+  .surgical .appointment-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .surgical .appointment-heading hr {
+    width: 0%;
+    border: 0px solid;
+  }
+
+  /* pharma */
+  .pharma-image img {
+    width: 100%;
+    height: 58vh;
+  }
+
+  .pharma-heading {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 3% 0 10% 6%;
+    color: #323232;
+  }
+
+  .pharmaceuticals .pharma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .pharmaceuticals .pharma .list {
+    width: 100%;
+  }
+
+  .pharmaceuticals .pharma .list ul {
+    width: 90%;
+    padding: 10px 0 0 9%;
+    cursor: pointer;
+    color: #666666;
+  }
+
+  .pharmaceuticals .pharma .list ul li {
+    font-size: 20px;
+    padding: 10px 2%;
+    text-decoration: none;
+    list-style: none;
+    background-color: #F8F8F8;
+    margin: 2px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+
+  .pharmaceuticals .pharma svg {
+    width: 24px;
+    margin: -6px 9px;
+
+  }
+
+  .pharmaceuticals .request-form {
+    width: 100%;
+    padding: 30px 0 10% 9%;
+
+  }
+
+  .pharmaceuticals .request-form .request-heading {
+    padding: 0 0 35px 0;
+    color: #323232;
+    font-size: 11px;
+    font-weight: 800;
+  }
+
+  .pharmaceuticals .request-form .request-heading {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .pharmaceuticals .request-form .request-heading hr {
+    margin-top: 5px;
+    width: 0%;
+    border: 0px solid;
+  }
+
+  .pharmaceuticals .request-form input {
+    width: 87%;
+    padding: 12px 10px;
+    font-size: 14px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+  }
+
+  .pharmaceuticals .request-form select {
+    width: 87%;
+    padding: 12px 10px;
+    margin: 3px;
+    font-size: 14px;
+    border: none;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+  }
+
+  .pharmaceuticals .request-form textarea {
+    width: 87%;
+    padding: 12px 10px;
+    font-size: 15px;
+    margin: 3px;
+    background-color: #EFEFEF;
+    border: 1px solid rgb(189, 183, 183);
+    outline: none;
+    height: 195px;
+    font-family: unset;
+  }
+
+  .pharmaceuticals .request-form button {
+    padding: 12px 30px;
+    font-size: 14px;
+    margin: 3px;
+    border: none;
+    background-color: #1293FF;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .pharmaceuticals .request-form button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .pharmaceuticals .pharma .medicine {
+    display: flex;
+    background-color: #F8F8F8;
+    padding: 10px 0 100px 0px;
+    margin: 2px;
+  }
+
+  .pharmaceuticals .pharma .medicine .item {
+    width: calc(100% * (2/5));
+    padding: 10px 0px;
+    margin: 7px;
+    background-color: white;
+  }
+
+  .pharmaceuticals .pharma .medicine img {
+    width: 100%;
+  }
+
+  .pharmaceuticals .pharma .medicine .item .content {
+    text-align: center;
+    padding: 15px 0px 0 0;
+    background-color: white;
+    cursor: pointer;
+
+  }
+
+  .pharmaceuticals .pharma .medicine .item .content p {
+    padding: 15px 0 15px 0;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .pharmaceuticals .pharma .medicine .item .content button {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .pharmaceuticals .pharma .medicine .item .content button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+
+  .pharmaceuticals .pharma .vaccine {
+    display: flex;
+    background-color: #F8F8F8;
+    padding: 10px 0 100px 0px;
+    margin: 2px;
+    margin-bottom: 15%;
+  }
+
+  .pharmaceuticals .pharma .vaccine .item {
+    width: calc(100% * (2/5));
+    padding: 10px 0px;
+    margin: 7px;
+    background-color: white;
+  }
+
+  .pharmaceuticals .pharma .vaccine img {
+    width: 100%;
+  }
+
+  .pharmaceuticals .pharma .vaccine .item .content {
+    text-align: center;
+    padding: 15px 0px 0 0;
+    background-color: white;
+
+  }
+
+  .pharmaceuticals .pharma .vaccine .item .content p {
+    padding: 15px 0 15px 0;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .pharmaceuticals .pharma .vaccine .item .content button {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #1293FF;
+    font-weight: 530;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+
+  .pharmaceuticals .pharma .vaccine .item .content button:hover {
+    background-color: rgb(9, 71, 122);
+  }
+}
